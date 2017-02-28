@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="app_listview_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:divider">@null</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fastScrollEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:scrollingCache">false</item>
+    </style>
+
+    <style name="app_cardview_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="cardBackgroundColor">@color/colorWhite</item>
+        <item name="cardCornerRadius">@dimen/three_dip</item>
+        <item name="cardElevation">@dimen/five_dip</item>
+        <item name="android:layout_margin">@dimen/five_dip</item>
+
+    </style>
+
+</resources>
